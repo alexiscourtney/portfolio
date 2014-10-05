@@ -12,11 +12,11 @@
 
 body {
   background-image: url("../images/brushed.png");
+  width: 100%;
 }
 
 header {
   margin-top: 2%;
-  width: 100%;
   text-align: center;
 
   h1 {
@@ -28,4 +28,20 @@ header {
     color: $teal-green;
     line-height: .5em;
   }
+}
+
+.social-media {
+
+   text-align: center;
+   margin-top: 1%;
+
+    // ul {
+    //   @include hide-text;
+    //   height: 20px;
+    // }
+
+   li {
+     display: inline-block;
+     padding: 1%
+   }
 }

@@ -274,11 +274,11 @@ input[type="submit"] {
   box-sizing: border-box; }
 
 body {
-  background-image: url("../images/brushed.png"); }
+  background-image: url("../images/brushed.png");
+  width: 100%; }
 
 header {
   margin-top: 2%;
-  width: 100%;
   text-align: center; }
   header h1 {
     color: #4f4f4f; }
@@ -286,5 +286,12 @@ header {
     font-variant: small-caps;
     color: #39b183;
     line-height: .5em; }
+
+.social-media {
+  text-align: center;
+  margin-top: 1%; }
+  .social-media li {
+    display: inline-block;
+    padding: 1%; }
 
 /*# sourceMappingURL=stylesheet.css.map */
