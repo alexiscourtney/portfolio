@@ -278,20 +278,24 @@ body {
   width: 100%; }
 
 header {
-  margin-top: 2%;
+  margin-top: 4%;
   text-align: center; }
   header h1 {
     color: #4f4f4f; }
   header h2 {
     font-variant: small-caps;
-    color: #39b183;
+    color: #38b2b2;
     line-height: .5em; }
 
 .social-media {
+  width: 600px;
+  margin: auto;
   text-align: center;
-  margin-top: 1%; }
+  margin-top: 2%;
+  border-top: 1px dashed #38b2b2;
+  border-bottom: 1px dashed #38b2b2; }
   .social-media li {
     display: inline-block;
-    padding: 1%; }
+    padding: 3%; }
 
 /*# sourceMappingURL=stylesheet.css.map */

@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  margin-top: 2%;
+  margin-top: 4%;
   text-align: center;
 
   h1 {
@@ -31,17 +31,15 @@ header {
 }
 
 .social-media {
-
+   width: 600px;
+   margin: auto;
    text-align: center;
-   margin-top: 1%;
-
-    // ul {
-    //   @include hide-text;
-    //   height: 20px;
-    // }
+   margin-top: 2%;
+   border-top: 1px dashed $teal-green;
+   border-bottom: 1px dashed $teal-green;
 
    li {
      display: inline-block;
-     padding: 1%
+     padding: 3%;
    }
 }
