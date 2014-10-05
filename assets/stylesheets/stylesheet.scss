@@ -1,3 +1,31 @@
+
+// IMPORTS
+
+@import "_reset.scss";
 @import "bourbon/bourbon";
-@import "neat/neat";
 @import "base/base";
+@import "neat/neat";
+
+
+
+// STYLE
+
+body {
+  background-image: url("../images/brushed.png");
+}
+
+header {
+  margin-top: 2%;
+  width: 100%;
+  text-align: center;
+
+  h1 {
+    color: $dark-gray;
+  }
+
+  h2 {
+    font-variant: small-caps;
+    color: $teal-green;
+    line-height: .5em;
+  }
+}

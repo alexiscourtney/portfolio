@@ -1,11 +1,10 @@
 // Typography
-$sans-serif: $helvetica;
-$serif: $georgia;
+$sans-serif: "Open Sans", sans-serif;
 $base-font-family: $sans-serif;
 $header-font-family: $base-font-family;
 
 // Font Sizes
-$base-font-size: 1em;
+$base-font-size: 20px;
 $h1-font-size: $base-font-size * 2.25;
 $h2-font-size: $base-font-size * 2;
 $h3-font-size: $base-font-size * 1.75;
@@ -23,19 +22,19 @@ $base-spacing: $base-line-height * 1em;
 $base-z-index: 0;
 
 // Colors
-$blue: #477DCA;
-$dark-gray: #333;
-$medium-gray: #999;
-$light-gray: #DDD;
-$light-red: #FBE3E4;
-$light-yellow: #FFF6BF;
-$light-green: #E6EFC2;
+$dark-gray: #4f4f4f;
+$teal-green: #39b183;
+$blue: #5891c0;
+$black: #000;
+$yellow: #d09e32;
+$red: #e94b4b;
+
 
 // Background Color
 $base-background-color: white;
 
 // Font Colors
-$base-font-color: $dark-gray;
+$base-font-color: $black;
 $base-accent-color: $blue;
 
 // Link Colors
@@ -45,13 +44,13 @@ $base-button-color: $base-link-color;
 $hover-button-color: $hover-link-color;
 
 // Flash Colors
-$alert-color: $light-yellow;
-$error-color: $light-red;
+$alert-color: $yellow;
+$error-color: $red;
 $notice-color: lighten($base-accent-color, 40);
-$success-color: $light-green;
+$success-color: $teal-green;
 
 // Border color
-$base-border-color: $light-gray;
+$base-border-color: $dark-gray;
 $base-border: 1px solid $base-border-color;
 
 // Forms
